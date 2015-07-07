@@ -1,0 +1,126 @@
+.wraper {
+    border-top: 4px solid #a98f68;
+}
+
+.header {
+    width: 940px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    width: 257px;
+    margin: 10px;
+}
+
+.header_centr {
+    width: 537px;
+}
+
+.title {
+    padding-top: 12px;
+    text-align: center;
+    color: #a98f68;
+    font: 17px;
+    font-family: Roboto-Thin;
+    text-transform: uppercase;
+}
+
+.telefon {
+    color: #000;
+    font-size: 14px;
+    font-family: Roboto-Thin;
+    padding-bottom: 10px;
+}
+
+.telefon span {
+    font-size: 18px;
+}
+
+.telefon img {
+    vertical-align: middle;
+}
+
+.btn_back_coll {
+    font-size: 13px;
+    font-family: Roboto-Regular;
+    height: 30px;
+    width: 175px;
+    margin: 0 auto;
+    background: #2b3a42;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font: 13px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.gar {
+    float: right;
+    margin: 10px;
+}
+/**************************************************************/
+
+.header2 {
+    width: 100%;
+    height: 480px;
+    background: url(../img/bg1.png) no-repeat center top;
+}
+
+.header2_conteiner {
+    width: 832px;
+    height: 480px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.header2_left {
+    width: 515px;
+ 
+}
+
+.header2_left h3 {
+    padding-top: 76px;
+    font-size: 72px;
+    font-family: RobotoCondensed-Light;    
+    text-transform: uppercase;
+    text-align: left;
+}
+.header2_left h4{
+    padding-top: 12px;
+    font-size: 36px;
+    font-family: RobotoCondensed-Light;    
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.header2_left h5{
+    padding-top: 10px;
+    font-size: 36px;
+    font-family: Roboto-Thin; 
+    text-align: left;
+}
+
+.btn_acija {
+    margin-top: 40px;
+    width: 240px;
+    height: 40px;
+    background: #a98f68;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font: 16px Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.header2_right {
+
+ width: 10px;
+ height: 10px;
+ border:3px solid #595643;
+ border-radius: 5px;
+
+}
