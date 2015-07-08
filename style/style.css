@@ -308,6 +308,11 @@
     text-transform: uppercase;
     padding-bottom: 60px;
 }
+ 
+.otziv_text span {
+    
+    font-family: Roboto-Medium;
+}
 
 .block_otziv {
     height: 180px;
@@ -361,4 +366,75 @@
 width: 80px;
 margin: 0 auto;
 
+}
+
+/********************************************/
+/*************robota***************************/
+
+.robota {
+    /*************  height: 450px; ***************************/
+    height: 500px;
+    width:  100%;
+   
+}
+
+.oll_robota{
+    height: 220px;
+    width: 890px;
+    margin: 0 auto;
+  
+}
+
+.one_robota{
+    height: 220px;
+    width: 188px;
+    float: left;
+     
+}
+
+.one_robota_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    border: 7px solid #a98f68;
+     
+   margin-left: 35px;
+
+ margin-bottom:  30px;
+}
+
+.one_robota_img img {
+      padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+}
+.one_robota_title{
+
+    width: 170px;
+    font-size: 16px;     
+    font-family: Roboto-Medium;
+    color: #2b3a42; 
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.one_robota_text{
+    width: 170px;
+    font-size: 16px;     
+    font-family: Roboto-Light;
+    color: #a98f68;
+    text-align: center; 
+
+}
+/********************************************/
+
+/*************galereja***************************/
+
+.galereja {
+    height: 640px;
+    width:  100%;
+    background: url(../img/bg4.png) no-repeat center top;
 }
