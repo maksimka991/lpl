@@ -52,7 +52,6 @@
     border-radius: 5px;
     color: #fff;
     text-align: center;
-     
     text-transform: uppercase;
     line-height: 30px;
 }
@@ -78,28 +77,28 @@
 
 .header2_left {
     width: 515px;
- 
 }
 
 .header2_left h3 {
     padding-top: 76px;
     font-size: 72px;
-    font-family: RobotoCondensed-Light;    
-    text-transform: uppercase;
-    text-align: left;
-}
-.header2_left h4{
-    padding-top: 12px;
-    font-size: 36px;
-    font-family: RobotoCondensed-Light;    
+    font-family: RobotoCondensed-Light;
     text-transform: uppercase;
     text-align: left;
 }
 
-.header2_left h5{
+.header2_left h4 {
+    padding-top: 12px;
+    font-size: 36px;
+    font-family: RobotoCondensed-Light;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.header2_left h5 {
     padding-top: 10px;
     font-size: 36px;
-    font-family: Roboto-Thin; 
+    font-family: Roboto-Thin;
     text-align: left;
 }
 
@@ -117,110 +116,106 @@
 }
 
 .header2_right {
-  width: 10px;
-  height: 10px;
-  border:3px solid #595643;
-  border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #595643;
+    border-radius: 5px;
 }
-
-
 /**************************************************************/
-.perevagi_text{
+
+.perevagi_text {
     padding-top: 60px;
     text-align: center;
     color: #000;
     font-family: Roboto-Thin;
-    font-size: 30px;    
+    font-size: 30px;
     text-transform: uppercase;
-    padding-bottom:  60px;
+    padding-bottom: 60px;
 }
 
-.perevagi_text span{ 
-   font-family: Roboto-Regular;     
+.perevagi_text span {
+    font-family: Roboto-Regular;
 }
 
-
-.perevagi{    
+.perevagi {
     width: 100%;
     height: 480px;
     background: url(../img/per.png) no-repeat center top;
-     border-bottom:  8px solid #2b3a42;
-     padding-bottom: 20px;
+    border-bottom: 8px solid #2b3a42;
+    padding-bottom: 20px;
 }
 /********************************************/
-.lodc-vesla{
-background: url(../img/bg2.png) no-repeat center top;
+
+.lodc-vesla {
+    background: url(../img/bg2.png) no-repeat center top;
 }
 
-.lodci-ecran{
+.lodci-ecran {
     height: 873px;
     width: 100%;
-    
-     border-bottom: 7px solid #a98f68;
+    border-bottom: 7px solid #a98f68;
 }
 
-.cards{
+.cards {
     width: 970px;
     height: 616px;
     margin: 0 auto;
-    border:3px solid #595643;
+    border: 3px solid #595643;
 }
 
-.card{
-   width:  295px;
-   height: 100%;
-   float: left;
-   background: #f8f8f8;
+.card {
+    width: 295px;
+    height: 100%;
+    float: left;
+    background: #f8f8f8;
 }
 
-.otstup{
+.otstup {
     width: 42px;
     height: 100%;
     float: left;
 }
 
-.model{
-   padding-top: 10px;
+.model {
+    padding-top: 10px;
     text-align: center;
     color: #000;
     font-family: Roboto-Light;
-    font-size: 20px;  
-     text-transform: uppercase;
-    margin: 20px; 
-
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px;
 }
-.model span{
+
+.model span {
     font-family: Roboto-Bold;
 }
 
-.opis{    
+.opis {
     text-align: center;
     color: #000;
     font-family: Roboto-Light;
-    font-size: 14px;  
-    margin: 20px;     
+    font-size: 14px;
+    margin: 20px;
 }
 
-.new-price{    
+.new-price {
     text-align: center;
     color: #a98f68;
     font-family: Roboto-Bold;
-    font-size: 24px;    
-    
+    font-size: 24px;
 }
 
-.old-price{
+.old-price {
     padding-top: 10px;
     text-align: center;
     color: #2b3a42;
     font-family: Roboto-Thin;
-    font-size: 16px;    
+    font-size: 16px;
     text-decoration: line-through;
-    padding-bottom:  10px;
-   
+    padding-bottom: 10px;
 }
-.btn_kup{
 
+.btn_kup {
     font-size: 18px;
     font-family: Roboto-Regular;
     height: 38px;
@@ -229,130 +224,141 @@ background: url(../img/bg2.png) no-repeat center top;
     background: #2b3a42;
     border-radius: 5px;
     color: #fff;
-    text-align: center;     
+    text-align: center;
     text-transform: uppercase;
     line-height: 30px;
 }
 
-.primitka{
+.primitka {
     padding-top: 10px;
-      font-size: 18px;
-    font-family:RobotoCondensed-LightItalic;   
+    font-size: 18px;
+    font-family: RobotoCondensed-LightItalic;
     color: #2b3a42;
-    text-align: center;     
-   
+    text-align: center;
 }
 /********************************************/
 /********************************************/
 /********************************************/
-/********************************************/ 
-
 /********************************************/
-.perevagi2{
-  height: 565px;
-  width: 100%;
+/********************************************/
+
+.perevagi2 {
+    height: 565px;
+    width: 100%;
 }
 
-.perevaga{
-    
+.perevaga {
     width: 740px;
     height: 330px;
     margin: 0 auto;
 }
 
-.perevaga_left{
+.perevaga_left {
     float: left;
     width: 400px;
 }
 
-.perevaga_Right{
+.perevaga_Right {
     float: right;
 }
 
-.per_one{
+.per_one {
     height: 55px;
-margin-bottom:  30px;
-
-
+    margin-bottom: 30px;
 }
 
-.img{
+.img {
     height: 55px;
     width: 55px;
     background: #2b3a42;
     border-radius: 50%;
-     float: left;
+    float: left;
 }
 
-.img img{
+.img img {
     padding-top: 20px;
     display: block;
     margin: 0 auto;
 }
 
-.per{
+.per {
     width: 260px;
     font-size: 16px;
-    font-family:Roboto-Light;   
+    font-family: Roboto-Light;
     color: #a98f68;
     float: left;
-     line-height: 55px;
-     padding-left: 25px;
+    line-height: 55px;
+    padding-left: 25px;
 }
 /********************************************/
-
-
 /*************otziv***************************/
-.otziv{
+
+.otziv {
     height: 480px;
     width: 100%;
-
     background: url(../img/bg3.png) no-repeat center top;
 }
-.otziv_text{
+
+.otziv_text {
     padding-top: 50px;
     text-align: center;
     color: #fff;
     font-family: Roboto-Thin;
-    font-size: 30px;    
+    font-size: 30px;
     text-transform: uppercase;
-    padding-bottom:  60px;
+    padding-bottom: 60px;
 }
 
-.block_otziv{
-
-height: 180px;
-width: 940px;
-  margin: 0 auto;
+.block_otziv {
+    height: 180px;
+    width: 940px;
+    margin: 0 auto;
 }
-
 
 .otz_photo {
     height: 150px;
     width: 150px;
- 
     border-radius: 50%;
-     float: left;
-     border: 6px solid #5d6568;
+    float: left;
+    border: 6px solid #5d6568;
+    margin-right: 15px;
 }
 
-.otz_photo  img{
- 
-
+.otz_photo img {
     height: 150px;
     width: 150px;
-   
     border-radius: 50%;
 }
 
-.otz_text{
+.otz_text {
+    height: 150px;
+    width: 940px;
     font-size: 16px;
-    font-family:Roboto-Light;   
+    font-family: Roboto-Light;
     color: #fff;
-
     line-height: 25px;
+    /*
+   letter-spacing: 1px;
+*/
 }
- 
-.radiobutton{
+
+.otz_text span {
+    float: right;
+    font-family: Roboto-Medium;
+}
+
+#b_o_2{
+    display: none;
+      
+}
+
+#b_o_3{
+    display: none;
+     
+}
+
+.radiobutton {
+width: 80px;
+margin: 0 auto;
 
 }
