@@ -147,11 +147,16 @@
      border-bottom:  8px solid #2b3a42;
      padding-bottom: 20px;
 }
-
+/********************************************/
 .lodc-vesla{
+background: url(../img/bg2.png) no-repeat center top;
+}
+
+.lodci-ecran{
     height: 873px;
     width: 100%;
-    background: url(../img/bg2.png) no-repeat center top;
+    
+     border-bottom: 7px solid #a98f68;
 }
 
 .cards{
@@ -163,8 +168,9 @@
 
 .card{
    width:  295px;
+   height: 100%;
    float: left;
-   
+   background: #f8f8f8;
 }
 
 .otstup{
@@ -173,7 +179,48 @@
     float: left;
 }
 
+.model{
+   padding-top: 10px;
+    text-align: center;
+    color: #000;
+    font-family: Roboto-Light;
+    font-size: 20px;  
+     text-transform: uppercase;
+    margin: 20px; 
+
+}
+.model span{
+    font-family: Roboto-Bold;
+}
+
+.opis{    
+    text-align: center;
+    color: #000;
+    font-family: Roboto-Light;
+    font-size: 14px;  
+    margin: 20px;     
+}
+
+.new-price{    
+    text-align: center;
+    color: #a98f68;
+    font-family: Roboto-Bold;
+    font-size: 24px;    
+    
+}
+
+.old-price{
+    padding-top: 10px;
+    text-align: center;
+    color: #2b3a42;
+    font-family: Roboto-Thin;
+    font-size: 16px;    
+    text-decoration: line-through;
+    padding-bottom:  10px;
+   
+}
 .btn_kup{
+
     font-size: 18px;
     font-family: Roboto-Regular;
     height: 38px;
@@ -185,4 +232,80 @@
     text-align: center;     
     text-transform: uppercase;
     line-height: 30px;
+}
+
+.primitka{
+    padding-top: 10px;
+      font-size: 18px;
+    font-family:RobotoCondensed-LightItalic;   
+    color: #2b3a42;
+    text-align: center;     
+   
+}
+/********************************************/
+/********************************************/
+/********************************************/
+/********************************************/ 
+
+/********************************************/
+.perevagi2{
+  height: 565px;
+  width: 100%;
+}
+
+.perevaga{
+    
+    width: 740px;
+    height: 330px;
+    margin: 0 auto;
+}
+
+.perevaga_left{
+    float: left;
+    width: 400px;
+}
+
+.perevaga_Right{
+    float: right;
+}
+
+.per_one{
+    height: 55px;
+margin-bottom:  30px;
+
+
+}
+
+.img{
+    height: 55px;
+    width: 55px;
+    background: #2b3a42;
+    border-radius: 50%;
+     float: left;
+}
+
+.img img{
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.per{
+    width: 260px;
+    font-size: 16px;
+    font-family:Roboto-Light;   
+    color: #a98f68;
+    float: left;
+     line-height: 55px;
+     padding-left: 25px;
+}
+/********************************************/
+
+
+/****************************************/
+.otziv{
+    height: 480px;
+    width: 100%;
+
+    background: url(../img/bg3.png) no-repeat center top;
 }
