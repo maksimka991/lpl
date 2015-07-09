@@ -438,3 +438,22 @@ margin: 0 auto;
     width:  100%;
     background: url(../img/bg4.png) no-repeat center top;
 }
+
+
+.galereja_photo  {      
+     height: 400px;
+     width: 800px;
+     margin: 0 auto;     
+}
+
+#gal_one_img2{display: none;}
+#gal_one_img3{display: none;}
+#gal_one_img4{display: none;}
+#gal_one_img5{display: none;}
+
+
+ .radiobutton_2 {
+width: 130px;
+margin: 0 auto;
+
+}
