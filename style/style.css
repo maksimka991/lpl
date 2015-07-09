@@ -194,12 +194,16 @@ margin-top: 265px;
     width: 100%;
     border-bottom: 7px solid #a98f68;
 }
+.lodc-kilson{
+background: url(../img/bg99.png) no-repeat center top;
+}
+
 
 .cards {
     width: 970px;
     height: 616px;
     margin: 0 auto;
-    border: 3px solid #595643;
+     
 }
 
 .card {
@@ -282,7 +286,7 @@ margin-top: 265px;
 /********************************************/
 
 .perevagi2 {
-    height: 565px;
+    height: 580px;
     width: 100%;
 }
 
@@ -315,7 +319,7 @@ margin-top: 265px;
 }
 
 .img img {
-    padding-top: 20px;
+    padding-top: 15px;
     display: block;
     margin: 0 auto;
 }
@@ -468,7 +472,7 @@ margin-top: 265px;
 
 .galereja_photo {
     height: 400px;
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
 }
 
