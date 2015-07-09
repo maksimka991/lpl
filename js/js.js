@@ -86,3 +86,40 @@
      }
 
  }
+
+
+
+    var date= new Date;
+    var today=date.getMinutes();
+    var metka=false;
+    var hours= 1,minutes=15,seconds=59;
+
+    function load_page(){
+        setInterval('timer()',1000);
+      }
+        function timer()
+      {
+        /* alert(metka);*/
+         if(seconds==0)
+            seconds=59;
+        if(minutes==0)
+            minutes=59;
+         document.getElementById('hours').innerHTML='01';
+         document.getElementById('minutes').innerHTML=minutes;
+         document.getElementById('secund').innerHTML=seconds;
+         if((seconds==0)&&(minutes==0)&&(metka==false))
+         {
+            hours=23;
+            seconds=59;
+                  minutes=59;
+         }
+         else
+         {
+         seconds--;
+            if(seconds==0)
+          minutes--;
+          if(minutes==0)
+          hours--;
+         }
+          metka=true;
+      }

@@ -56,6 +56,11 @@
     line-height: 30px;
 }
 
+.btn_back_coll:hover{
+    background: #a98f68;
+
+   
+}
 .gar {
     float: right;
     margin: 10px;
@@ -65,18 +70,19 @@
 .header2 {
     width: 100%;
     height: 480px;
-    background: url(../img/bg1.png) no-repeat center top;
+    background: url(../img/bg1.png) no-repeat center top;  clear: both;
 }
 
 .header2_conteiner {
-    width: 832px;
+    width:  840px;
     height: 480px;
     margin: 0 auto;
-    color: #fff;
+    color:  #fff;  
 }
 
 .header2_left {
-    width: 515px;
+    width: 400px;
+    float: left;
 }
 
 .header2_left h3 {
@@ -104,7 +110,7 @@
 
 .btn_acija {
     margin-top: 40px;
-    width: 240px;
+    width: 340px;
     height: 40px;
     background: #a98f68;
     border-radius: 5px;
@@ -115,11 +121,44 @@
     line-height: 40px;
 }
 
+.btn_acija:hover{
+background: #595643;
+}
+
 .header2_right {
-    width: 10px;
-    height: 10px;
-    border: 3px solid #595643;
-    border-radius: 5px;
+     float: right;
+        
+}
+
+.bloc_akcija{
+margin-top: 265px;
+
+
+  border: 3px solid #595643;   
+  width:  340px;
+  height: 120px;
+  border-radius: 10px; 
+    font-size: 16px;
+    font-family: Roboto-Regular; 
+    text-align: center;
+    text-transform: uppercase;
+}
+.bloc_akcija{
+    line-height: 40px;
+}
+
+.timer{
+     float: left;
+     font-size: 40px;
+     padding: 0 18px;
+}
+
+.podpis{
+     float: left;
+     font-size: 9px;
+     font-family:Roboto-Black;
+     padding: 0 20px;
+     color: #a98f68;
 }
 /**************************************************************/
 
