@@ -58,7 +58,7 @@
 
 .btn_back_coll:hover{
     background: #a98f68;
-
+cursor: pointer;
    
 }
 .gar {
@@ -123,6 +123,7 @@
 
 .btn_acija:hover{
 background: #595643;
+cursor: pointer;
 }
 
 .header2_right {
@@ -270,6 +271,11 @@ background: url(../img/bg99.png) no-repeat center top;
     text-align: center;
     text-transform: uppercase;
     line-height: 30px;
+}
+
+.btn_kup:hover{
+   background: #a98f68; 
+   cursor: pointer;
 }
 
 .primitka {
@@ -498,13 +504,13 @@ background: url(../img/bg99.png) no-repeat center top;
 }
 
 .seo_text {
-    height: 400px;
+    height: 380px;
     width: 940px;
     margin: 0 auto;
     font-size: 16px;
     font-family: Roboto-Light;
     color: #000;
-    padding-top: 20px;
+    padding-top: 25px;
     line-height: 24px;
 }
 /********* map*************/
@@ -553,7 +559,7 @@ background: url(../img/bg99.png) no-repeat center top;
 .blok1 {
     height: 230px;
     width: 840px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .blok1_left {
@@ -562,12 +568,17 @@ background: url(../img/bg99.png) no-repeat center top;
     font-size: 30px;
     font-family: Roboto-Thin;
     text-transform: uppercase;
+ 
 }
+ 
+
 
 .blok1_left span {
     font-size: 48px;
     font-family: Roboto-Light;
 }
+
+ 
 
 .teleffon {
     color: #fff;
@@ -599,6 +610,11 @@ background: url(../img/bg99.png) no-repeat center top;
     text-transform: uppercase;
     line-height: 40px;
 }
+
+.btn_back_coll_le:hover{
+    background:#5d6568;
+    cursor: pointer;
+}
 /*********   down_load   *************/
 
 .down_load {
@@ -624,6 +640,7 @@ background: url(../img/bg99.png) no-repeat center top;
 
 .bloc_center_dl:hover{
     background: #fff;
+     cursor: pointer;
 }
 /*********   footer   *************/
 
