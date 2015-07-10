@@ -11,7 +11,7 @@ $name=$_POST['name'];
 $telefon=$_POST['telefon'];  
  
 $msg="  
- хоче щоб йому передзвонили <br>
+ цей чувак скачав прайс <br>
  Имя: $name <br>
  telefon: $telefon   
 ";  
