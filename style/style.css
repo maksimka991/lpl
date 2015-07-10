@@ -56,11 +56,11 @@
     line-height: 30px;
 }
 
-.btn_back_coll:hover{
+.btn_back_coll:hover {
     background: #a98f68;
-cursor: pointer;
-   
+    cursor: pointer;
 }
+
 .gar {
     float: right;
     margin: 10px;
@@ -70,14 +70,15 @@ cursor: pointer;
 .header2 {
     width: 100%;
     height: 480px;
-    background: url(../img/bg1.png) no-repeat center top;  clear: both;
+    background: url(../img/bg1.png) no-repeat center top;
+    clear: both;
 }
 
 .header2_conteiner {
-    width:  840px;
+    width: 840px;
     height: 480px;
     margin: 0 auto;
-    color:  #fff;  
+    color: #fff;
 }
 
 .header2_left {
@@ -121,45 +122,43 @@ cursor: pointer;
     line-height: 40px;
 }
 
-.btn_acija:hover{
-background: #595643;
-cursor: pointer;
+.btn_acija:hover {
+    background: #595643;
+    cursor: pointer;
 }
 
 .header2_right {
-     float: right;
-        
+    float: right;
 }
 
-.bloc_akcija{
-margin-top: 265px;
-
-
-  border: 3px solid #595643;   
-  width:  340px;
-  height: 120px;
-  border-radius: 10px; 
+.bloc_akcija {
+    margin-top: 265px;
+    border: 3px solid #595643;
+    width: 340px;
+    height: 120px;
+    border-radius: 10px;
     font-size: 16px;
-    font-family: Roboto-Regular; 
+    font-family: Roboto-Regular;
     text-align: center;
     text-transform: uppercase;
 }
-.bloc_akcija{
+
+.bloc_akcija {
     line-height: 40px;
 }
 
-.timer{
-     float: left;
-     font-size: 40px;
-     padding: 0 18px;
+.timer {
+    float: left;
+    font-size: 40px;
+    padding: 0 18px;
 }
 
-.podpis{
-     float: left;
-     font-size: 9px;
-     font-family:Roboto-Black;
-     padding: 0 20px;
-     color: #a98f68;
+.podpis {
+    float: left;
+    font-size: 9px;
+    font-family: Roboto-Black;
+    padding: 0 20px;
+    color: #a98f68;
 }
 /**************************************************************/
 
@@ -195,16 +194,15 @@ margin-top: 265px;
     width: 100%;
     border-bottom: 7px solid #a98f68;
 }
-.lodc-kilson{
-background: url(../img/bg99.png) no-repeat center top;
-}
 
+.lodc-kilson {
+    background: url(../img/bg99.png) no-repeat center top;
+}
 
 .cards {
     width: 970px;
     height: 616px;
     margin: 0 auto;
-     
 }
 
 .card {
@@ -273,9 +271,9 @@ background: url(../img/bg99.png) no-repeat center top;
     line-height: 30px;
 }
 
-.btn_kup:hover{
-   background: #a98f68; 
-   cursor: pointer;
+.btn_kup:hover {
+    background: #a98f68;
+    cursor: pointer;
 }
 
 .primitka {
@@ -559,7 +557,7 @@ background: url(../img/bg99.png) no-repeat center top;
 .blok1 {
     height: 230px;
     width: 840px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .blok1_left {
@@ -568,17 +566,12 @@ background: url(../img/bg99.png) no-repeat center top;
     font-size: 30px;
     font-family: Roboto-Thin;
     text-transform: uppercase;
- 
 }
- 
-
 
 .blok1_left span {
     font-size: 48px;
     font-family: Roboto-Light;
 }
-
- 
 
 .teleffon {
     color: #fff;
@@ -611,8 +604,8 @@ background: url(../img/bg99.png) no-repeat center top;
     line-height: 40px;
 }
 
-.btn_back_coll_le:hover{
-    background:#5d6568;
+.btn_back_coll_le:hover {
+    background: #5d6568;
     cursor: pointer;
 }
 /*********   down_load   *************/
@@ -624,7 +617,7 @@ background: url(../img/bg99.png) no-repeat center top;
 }
 
 .bloc_center_dl {
-    height: 76px;     
+    height: 76px;
     text-align: center;
     padding-top: 16px;
     color: #2b3a42;
@@ -638,9 +631,9 @@ background: url(../img/bg99.png) no-repeat center top;
     margin: 0 20px;
 }
 
-.bloc_center_dl:hover{
+.bloc_center_dl:hover {
     background: #fff;
-     cursor: pointer;
+    cursor: pointer;
 }
 /*********   footer   *************/
 
@@ -653,4 +646,112 @@ background: url(../img/bg99.png) no-repeat center top;
     font-family: Roboto-Thin;
     text-align: center;
     line-height: 76px;
+}
+/*************************************************/
+ 
+/**********All styles popup**********/
+
+.popup {
+    padding: 5px 15px 15px;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    display: none;
+    overflow: hidden;
+    border: 5px solid rgba(31,43,46,0.9);
+    background: #fff;
+    
+    z-index: 100;
+  
+}
+
+.popup h2 {     
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: Roboto-Medium;
+    color: #b19976;
+    text-align: center;
+    text-transform: uppercase; 
+
+    border-bottom: 1px   solid #eee;
+        width: 270px;
+        margin-left: 20px;
+}
+
+.popup a.close {
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -9999px;
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    background: url(../img/close.png) no-repeat;
+
+}
+
+ 
+/**********popup coll_back**********/
+
+.coll_back {
+    margin-left: -175px;
+    width: 350px;
+    height: 230px;
+   
+}
+.coll_back  input[type=text]  {
+margin-bottom: 10px;
+margin-left: 50px;
+padding:0 3px;
+width:216px;
+height:36px;
+
+border:1px solid #eee;
+border-radius: 5px;
+}
+
+.coll_back input[type=submit] {
+width:216px;
+height:36px;
+
+margin-left: 50px;
+margin-top: 20px;
+ 
+ color: #fff;
+ font-size: 18px;
+ font-family: Roboto-Regular;
+
+ 
+background:#2b3a42; 
+ border-radius:5px;
+ 
+ 
+text-transform:uppercase;
+position:relative;
+cursor:pointer;
+ 
+}
+.coll_back input[type=submit]:hover {
+color:red;
+}
+
+/**********popup detali_lodoc**********/
+
+.detali_lodoc {
+    margin-left: -250px;
+    width: 500px;
+}
+ 
+/**********overlay styles**********/
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    background: #000;
+    opacity: .8;
 }
