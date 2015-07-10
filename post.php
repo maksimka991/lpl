@@ -15,33 +15,18 @@ $backurl=" ";  // На какую страничку переходит посл
 // Принимаем данные с формы 
  
 $name=$_POST['name'];  
-$email=$_POST['telefon'];  
+$telefon=$_POST['telefon'];  
 
 
 $msg=$_POST['message']; 
   
-// Проверяем валидность e-mail 
  
-if (!preg_match("|^([a-z0-9_\.\-]{1,20})@([a-z0-9\.\-]{1,20})\.([a-z]{2,4})|is", 
-strtolower($email))) 
- 
- {  
-  echo 
-"<center>Вернитесь <a 
-href='javascript:history.back(1)'><B>назад</B></a>. Вы 
-указали неверные данные!"; 
- 
-  } 
- 
- else 
- 
- { 
  
  
 $msg="  
  
 <p>Имя: $name</p> 
-<p>E-mail: $email</p>  
+<p>telefon: $telefon</p>  
 <p>Сообщение: $msg</p>  
 "; 
  
@@ -54,6 +39,6 @@ mail("$adminemail", "$date $time Сообщение
  
  
  
- } 
+ 
  
 ?>
