@@ -653,7 +653,6 @@
 /*************************************************/
 /*************************************************/
 /*************************************************/
- 
 /**********All styles popup**********/
 
 .popup {
@@ -663,25 +662,22 @@
     left: 50%;
     display: none;
     overflow: hidden;
-    border: 5px solid rgba(31,43,46,0.9);
+    border: 5px solid rgba(31, 43, 46, 0.9);
     background: #fff;
-    
     z-index: 100;
-  
 }
 
-.popup h2 {     
+.popup h2 {
     height: 50px;
     line-height: 50px;
     font-size: 18px;
     font-family: Roboto-Medium;
     color: #b19976;
     text-align: center;
-    text-transform: uppercase; 
-
-    border-bottom: 1px   solid #eee;
-        width: 270px;
-        margin-left: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eee;
+    width: 270px;
+    margin-left: 20px;
 }
 
 .popup a.close {
@@ -693,64 +689,59 @@
     top: 13px;
     right: 10px;
     background: url(../img/close.png) no-repeat;
-
 }
-
- 
 /**********popup coll_back**********/
 
-.coll_back, .coll_back2, .coll_back3 {
+.coll_back,
+.coll_back2,
+.coll_back3 {
     margin-left: -175px;
     width: 350px;
     height: 230px;
-   
-}
-.coll_back  input[type=text],
-.coll_back2  input[type=text],
-.coll_back3  input[type=text]{
-margin-bottom: 10px;
-margin-left: 50px;
-padding:0 3px;
-width:216px;
-height:36px;
-
-border:1px solid #eee;
-border-radius: 5px;
 }
 
-.coll_back   input[type=submit],
-.coll_back2   input[type=submit],
-.coll_back3   input[type=submit]  {
-width:216px;
-height:36px;
-margin-left: 50px;
-margin-top: 20px; 
- color: #fff;
- font-size: 18px;
- font-family: Roboto-Regular; 
-background:#2b3a42; 
- border-radius:5px; 
-text-transform:uppercase;
-position:relative;
-cursor:pointer; 
-}
-.coll_back   input[type=submit]:hover,
-.coll_back2   input[type=submit]:hover,
-.coll_back3   input[type=submit]:hover {
-color:red;
+.coll_back input[type=text],
+.coll_back2 input[type=text],
+.coll_back3 input[type=text] {
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding: 0 3px;
+    width: 216px;
+    height: 36px;
+    border: 1px solid #eee;
+    border-radius: 5px;
 }
 
+.coll_back input[type=submit],
+.coll_back2 input[type=submit],
+.coll_back3 input[type=submit] {
+    width: 216px;
+    height: 36px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-family: Roboto-Regular;
+    background: #2b3a42;
+    border-radius: 5px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
+
+.coll_back input[type=submit]:hover,
+.coll_back2 input[type=submit]:hover,
+.coll_back3 input[type=submit]:hover {
+    color: red;
+}
 /**********popup detali_lodoc**********/
 
 .detali_lodoc {
-    margin-left: -415px;
-    width: 830px;
+    margin-left: -390px;
+    width: 780px;
     height: 590px;
-
     top: 10px;
-
 }
- 
 /**********overlay styles**********/
 
 #overlay {
@@ -763,13 +754,32 @@ color:red;
     background: #000;
     opacity: .8;
 }
-
 /*************************************************/
 /*************************************************/
 /*************************************************/
 /*************************************************/
 /*************************************************/
 
-.coll_back3_options{
+.detali_lodoc h6 {
+    color: #2b3a42;
+    font-size: 16px;
+    font-family: Roboto-Bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.coll_back3_options {
     margin-left: -10px;
+}
+
+.detali_lodoc_left {
+    float: left;
+}
+
+.detali_lodoc_left img {
+    margin: 10px;
+}
+
+.detali_lodoc_right {
+    float: left;
 }
