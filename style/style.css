@@ -694,13 +694,15 @@
  
 /**********popup coll_back**********/
 
-.coll_back {
+.coll_back, .coll_back2, .coll_back3 {
     margin-left: -175px;
     width: 350px;
     height: 230px;
    
 }
-.coll_back  input[type=text]  {
+.coll_back  input[type=text],
+.coll_back2  input[type=text],
+.coll_back3  input[type=text]{
 margin-bottom: 10px;
 margin-left: 50px;
 padding:0 3px;
@@ -711,28 +713,25 @@ border:1px solid #eee;
 border-radius: 5px;
 }
 
-.coll_back input[type=submit] {
+.coll_back   input[type=submit],
+.coll_back2   input[type=submit],
+.coll_back3   input[type=submit]  {
 width:216px;
 height:36px;
-
 margin-left: 50px;
-margin-top: 20px;
- 
+margin-top: 20px; 
  color: #fff;
  font-size: 18px;
- font-family: Roboto-Regular;
-
- 
+ font-family: Roboto-Regular; 
 background:#2b3a42; 
- border-radius:5px;
- 
- 
+ border-radius:5px; 
 text-transform:uppercase;
 position:relative;
-cursor:pointer;
- 
+cursor:pointer; 
 }
-.coll_back input[type=submit]:hover {
+.coll_back   input[type=submit]:hover,
+.coll_back2   input[type=submit]:hover,
+.coll_back3   input[type=submit]:hover {
 color:red;
 }
 
